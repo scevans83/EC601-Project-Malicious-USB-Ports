@@ -1,20 +1,37 @@
 //Used to Send Message to User's Contacts on iPad
+
 GUI SPACE
+
 DELAY 500
+
 STRING messages
+
 DELAY 1000
+
 ENTER
+
 DELAY 1500
+
 GUI n
+
 DELAY 500
+
 STRING Stacey
+
 DELAY 500
+
 ENTER
+
 DELAY 500
+
 ENTER
+
 DELAY 500
+
 STRING i am a duck
+
 DELAY 500
+
 ENTER
 
 //
